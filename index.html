@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeoYeon's Portfolio</title>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsible.css">
+</head>
+<body>
+  <!-- modal background -->
+  <div class="modal-bg"></div>
+  <!-- title -->
+  <main class="main-title inner">
+    <h1 class="title">SeoYeon's PORTFOLIO</h1>
+  </main>
+  <!-- main-about -->
+  <section class="main-about inner">
+    <div class="main-about-img">
+      <img src="https://i.pinimg.com/736x/85/56/d4/8556d4cf2fd0a910fc92a84add9c584a.jpg" alt="main-img">
+    </div>
+    <div class="main-about-content">
+      <h2 class="intro">사용자 중심의 직관적인 UI를 구현하는 
+      프론트엔드 개발자를 꿈꾸는 장서연입니다.</h2>
+      <p class="desc">프론트엔드 개발은 사용자의 필요와 목적을 이해하고, 이를 웹 인터페이스로 효과적으로 구현하는 일이라고 생각합니다. 작은 불편도 놓치지 않고 개선해 나가며, 더 직관적이고 편리한 사용자 경험을 만드는 것을 목표로 하고 있습니다 <br>
+      저 역시 이러한 경험을 만드는 개발자가 되기 위해 계속 고민하고 성장하고 
+      있습니다.</p>
+      <button class="view-more">자세히 보기</button>
+    </div>
+  </section>
+  <!-- menu -->
+  <section class="menu inner">
+    <ul class="left-select">
+      <li data-category="ALL">ALL</li>
+      <li data-category="TEAM">TEAM</li>
+      <li data-category="SOLO">SOLO</li>
+    </ul>
+    <ul class="right-select">
+      <li data-category="HTML">HTML</li>
+      <li data-category="CSS">CSS</li>
+      <li data-category="SCSS">SCSS</li>
+      <li data-category="JavaScript">JavaScript</li>
+      <li data-category="React">React</li>
+    </ul>
+  </section>
+  <!-- card -->
+  <section class="container inner">
+    <div class="card" data-category="HTML CSS JavaScript SOLO ALL">
+      <div class="img-part">
+        <img src="images/card01.png" alt="card1">
+      </div>
+      <div class="card-content">
+        <div class="card-top">
+          <h3 class="card-title">KRIBB 리뉴얼</h3>
+          <p>SOLO</p>
+        </div>
+        <div class="card-desc">
+          <p>한국생명공학연구원(KRIBB) 웹사이트를 최신 트렌드에 맞게 개편하여 더욱 직관적이고 효율적인 정보 제공이 가능하도록 리뉴얼</p>
+        </div>
+        <div class="card-tag">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <button class="more">더보기</button>
+        </div>
+      </div>
+      <div class="hover-content">
+        <div class="hover-bg"></div>
+        <h3 class="hover-title">KRIBB 리뉴얼</h3>
+        <div class="button-wrap">
+          <button class="info-view" data-modal="modal-kribb"><a href="#none">자세히 보기</a></button>
+          <button><a href="https://github.com/JANG9999/portfolio-KRIBB" target="_blank">GIT 바로가기</a></button>
+          <button><a href="https://jang9999.github.io/portfolio-KRIBB/" target="_blank">사이트 바로가기</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-category="HTML SCSS JavaScript TEAM ALL">
+      <div class="img-part">
+        <img src="images/card02.png" alt="card2">
+      </div>
+      <div class="card-content">
+        <div class="card-top">
+          <h3 class="card-title">AOMG 리뉴얼</h3>
+          <p>TEAM</p>
+        </div>
+        <div class="card-desc">
+          <p>아티스트 갱신 지연 및 메인 콘텐츠 부족 문제를 개선하며 AOMG 사이트를 직관적으로 리뉴얼</p>
+        </div>
+        <div class="card-tag">
+          <p>HTML</p>
+          <p>SCSS</p>
+          <p>JavaScript</p>
+          <button class="more">더보기</button>
+        </div>
+      </div>
+      <div class="hover-content">
+        <div class="hover-bg"></div>
+        <h3 class="hover-title">AOMG 리뉴얼</h3>
+        <div class="button-wrap">
+          <button class="info-view" data-modal="modal-aomg"><a href="#none">자세히 보기</a></button>
+          <button><a href="https://github.com/JANG9999/AOMG" target="_blank">GIT 바로가기</a></button>
+          <button><a href="https://jang9999.github.io/AOMG/" target="_blank">사이트 바로가기</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-category="HTML SCSS JavaScript SOLO ALL">
+      <div class="img-part">
+        <img src="images/card03.png" alt="card1">
+      </div>
+      <div class="card-content">
+        <div class="card-top">
+          <h3 class="card-title">ETOOS</h3>
+          <p>SOLO</p>
+        </div>
+        <div class="card-desc">
+          <p>이투스 페이지 제작</p>
+        </div>
+        <div class="card-tag">
+          <p>HTML</p>
+          <p>SCSS</p>
+          <p>JavaScript</p>
+          <button class="more">더보기</button>
+        </div>
+      </div>
+      <div class="hover-content">
+        <div class="hover-bg"></div>
+        <h3 class="hover-title">ETOOS</h3>
+        <div class="button-wrap">
+          <button class="info-view" data-modal="modal-etoos"><a href="#none">자세히 보기</a></button>
+          <button><a href="https://github.com/JANG9999/ETOOS" target="_blank">GIT 바로가기</a></button>
+          <button><a href="https://jang9999.github.io/ETOOS/" target="_blank">사이트 바로가기</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-category="HTML SCSS JavaScript SOLO ALL">
+      <div class="img-part">
+        <img src="images/card04.png" alt="card4">
+      </div>
+      <div class="card-content">
+        <div class="card-top">
+          <h3 class="card-title">PITAP 클론코딩</h3>
+          <p>SOLO</p>
+        </div>
+        <div class="card-desc">
+          <p>PITAP 메인페이지 및 서브페이지(story, about) 클론코딩</p>
+        </div>
+        <div class="card-tag">
+          <p>HTML</p>
+          <p>SCSS</p>
+          <p>JavaScript</p>
+          <button class="more">더보기</button>
+        </div>
+      </div>
+      <div class="hover-content">
+        <div class="hover-bg"></div>
+        <h3 class="hover-title">PITAP 리뉴얼</h3>
+        <div class="button-wrap">
+          <button class="info-view" data-modal="modal-pitap"><a href="#none">자세히 보기</a></button>
+          <button><a href="https://github.com/JANG9999/PITAP" target="_blank">GIT 바로가기</a></button>
+          <button><a href="https://jang9999.github.io/PITAP/" target="_blank">사이트 바로가기</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="none">
+      <p>검색결과가 없습니다.</p>
+    </div>
+  </section>
+  <!-- epilogue -->
+  <section class="epilogue inner">
+    <h1 class="epilogue-title">Thank You</h1>
+    <p class="epilogue-desc">물 흐르듯 자연스럽고, 사용자에게 편안한 경험을 주는 인터페이스를 만드는 개발자가 되고 싶습니다.매일 배우고, 조금씩 나아가는 꾸준함으로 성장하겠습니다.</p>
+    <button class="git-link">
+      <a href="https://github.com/JANG9999" target="_blank">Go To GIT-HUB</a>
+    </button>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="inner">
+      <div class="email">catsy0829@gmail.com</div>
+      <span class="copy">&copy;2025 SeoYeonJang. All Rights Reserved.</span>
+    </div>
+  </footer>
+
+  <!-- about-modal -->
+  <div class="about-modal">
+    <h1 class="modal-title">ABOUT</h1>
+    <div class="skill-wrap">
+      <div class="my-skill skill">
+        <h3>(My Skills)</h3>
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+      <div class="skill">
+        <h3>Photoshop</h3>
+        <p>이미지 리터칭, 사진 편집</p>
+      </div>
+      <div class="skill">
+        <h3>Illustration</h3>
+        <p>간단한 로고 및 아이콘 디자인 </p>
+      </div>
+      <div class="skill">
+        <h3>Figma</h3>
+        <p>UX/UI 디자인, 웹사이트 디자인, 협업 프로젝트 관리</p>
+      </div>
+      <div class="skill">
+        <h3>HTML</h3>
+        <p>웹 표준과 접근성을 고려한 시맨틱 마크업 기반의 퍼블리싱과 체계적인 HTML 구조 설계 가능</p>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <p>레이아웃 구성, 시각적 디자인 설정, 반응형 웹 구현
+애니메이션 효과 적용</p>
+      </div>
+      <div class="skill">
+        <h3>SCSS</h3>
+        <p>변수 사용, 중첩 문법 사용</p>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <p>기본적인 자바스크립트 문법을 이해하고 간단한 기능에 활용 중.</p>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <p>API 연동 및 데이터 렌더링</p>
+      </div>
+    </div>
+    <div class="modal-content">
+      <div class="education-wrap">
+        <div class="university">
+          <h3>학력</h3>
+          <p>충남대학교 생명정보융합학과 (2021 ~ 2026)</p>
+        </div>
+        <div class="extra-edu">
+          <h3>추가교육</h3>
+          <p>그린컴퓨터아트학원</p>
+          <p>AI활용 프론트엔드 반응형 웹개발자 (2025.03~2025.08)</p>
+        </div>
+      </div>
+      <div class="certification">
+        <h3>자격증</h3>
+        <ul>
+          <li>GTQ <span>1급(2025)</span></li>
+          <li>GTQi <span>1급(2025)</span></li>
+          <li>컴퓨터활용능력 <span>2급 필기기(2025)</span></li>
+          <li>웹디자인기능사 <span>필기(2025)</span></li>
+          <li>Toic Speakin <span>IM3(2024)</span></li>
+        </ul>
+      </div>
+    </div>
+    <button class="close">Close</button>
+  </div>
+  <!-- content-modal -->
+  <div class="project-info" id="modal-kribb">
+    <div class="info-title">
+      <h2 class="info-main-title">한국생명공학연구원(KRIBB)</h2>
+      <span><i class="fa-solid fa-xmark info-close"></i></span>
+    </div>
+    <div class="info-sub">
+      <h3 class="sub-title">한국생명공학연구원(KRIBB) 리뉴얼</h3>
+      <div class="sub-desc">
+        <p class="during">제작기간 : 7일</p>
+        <p class="domestic">기여도 : 100%</p>
+      </div>
+    </div>
+    <div class="swiper project-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide01-video01.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide01-video02.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide01-video03.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next project-next">
+      <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    <div class="swiper-button-prev project-prev">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <div class="info-desc">
+      <p>기존 홈페이지는 과도한 이미지 사용과 낮은 가독성으로 인해 정보 전달에 비효율적이었습니다. 
+      이에 따라 시각적 요소를 정제하고, 사용자의 시선 흐름을 고려한 직관적인 레이아웃으로 전면 개편하였습니다. 전반적인 디자인을 개선함으로써 사용자 경험을 극대화하고, 명확한 콘텐츠 전달이 가능한 환경으로 재구성하였습니다. </p>
+    </div>
+    <div class="tools">
+      <h2>프로젝트 개발 툴</h2>
+      <p class="design">디자인 : Figma, Photoshop</p>
+      <p class="publishing">퍼블리싱 : HTML, CSS, JavaScript</p>
+    </div>
+    <div class="info-button-wrap">
+      <button><a href="https://github.com/JANG9999/portfolio-KRIBB" target="_blank">GIT 바로가기</a></button>
+      <button><a href="https://jang9999.github.io/portfolio-KRIBB/" target="_blank">사이트 바로가기</a></button>
+    </div>
+  </div>
+  <div class="project-info" id="modal-aomg">
+    <div class="info-title">
+      <h2 class="info-main-title">AOMG</h2>
+      <span><i class="fa-solid fa-xmark info-close"></i></span>
+    </div>
+    <div class="info-sub">
+      <h3 class="sub-title">AOMG 리뉴얼</h3>
+      <div class="sub-desc">
+        <p class="during">제작기간 : 7일</p>
+        <p class="domestic">기여도 : 33%</p>
+      </div>
+    </div>
+    <div class="swiper project-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide02-video01.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide02-video02.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide02-video03.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide02-video04.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide02-video05.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide02-video06.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next aomg-button">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="swiper-button-prev aomg-button">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <div class="info-desc">
+      <p>기존 메인 페이지는 콘텐츠 부족과 탈퇴 아티스트 정보의 미반영 등 최신성 측면에서 한계가 있었습니다. 이를 보완하고, 사용자 경험을 개선하고자 메인 콘텐츠를 강화하고 아티스트 정보를 최신화하였습니다.  또한, 스케줄 확인을 위해 외부 SNS에 의존해야 했던 불편함을 해소하기 위해, 스케줄 전용 페이지를 신규 제작하였습니다.  굿즈 페이지 접근 불가 문제 역시 별도 페이지를 통해 개선하였으며, 사이트 전반의 디자인 역시 AOMG만의 개성과 정체성을 반영하여 힙합 레이블로서의 브랜드 이미지를 강화하였습니다. </p>
+    </div>
+    <div class="aomg-img-wrap">
+      <h2>담당 페이지</h2>
+      <div class="img-wrap">
+        <img src="images/aomg.png" alt="aomg">
+        <img src="images/aomg (1).png" alt="aomg">
+        <img src="images/aomg (2).png" alt="aomg">
+        <img src="images/aomg (3).png" alt="aomg">
+        <img src="images/aomg (4).png" alt="aomg">
+        <img src="images/aomg (5).png" alt="aomg">
+        <img src="images/aomg (6).png" alt="aomg">
+      </div>
+      <div class="aomg-desc">
+        <p>메인페이지 : main, about</p>
+        <p>서브페이지 : artist, store(best-item, new-release)</p>
+      </div>
+    </div>
+    <div class="tools">
+      <h2>프로젝트 개발 툴</h2>
+      <p class="design">디자인 : Figma, Photoshop</p>
+      <p class="publishing">퍼블리싱 : HTML, SCSS, JavaScript</p>
+    </div>
+    <div class="info-button-wrap">
+      <button><a href="https://github.com/JANG9999/AOMG" target="_blank">GIT 바로가기</a></button>
+      <button><a href="https://jang9999.github.io/AOMG/" target="_blank">사이트 바로가기</a></button>
+    </div>
+  </div>
+  <div class="project-info" id="modal-etoos">
+    <div class="info-title">
+      <h2 class="info-main-title">ETOOS</h2>
+      <span><i class="fa-solid fa-xmark info-close"></i></span>
+    </div>
+    <div class="info-sub">
+      <h3 class="sub-title">ETOOS 리뉴얼</h3>
+      <div class="sub-desc">
+        <p class="during">제작기간 : 7일</p>
+        <p class="domestic">기여도 : 100%</p>
+      </div>
+    </div>
+    <div class="swiper project-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide03-video01.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide03-video02.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted src="images/slide03-video03.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <div class="info-desc">
+      <p>SCSS로 제작한 이투스 사이트로 로그인하면 헤더에 장바구니와 주요 기능이 아이콘으로 표시돼서 쇼핑이나 서비스 이용이 편리합니다. 회원가입도 별도 페이지로 구성돼 있어 신규 사용자 유입에 문제가 없고, 강의나 콘텐츠에 대한 상세 설명은 서브페이지를 통해 확인할 수 있습니다. 카테고리별로 구분도 잘 돼 있어서 필요한 정보를 찾기 쉽습니다. 모바일이나 태블릿에서도 문제없이 작동하고, 화면 크기에 맞춰 내용이 잘 정리돼서 어떤 기기에서 보든 사용에 큰 불편이 없습니다. </p>
+    </div>
+    <div class="tools">
+      <h2>프로젝트 개발 툴</h2>
+      <p class="design">디자인 : Figma, Photoshop</p>
+      <p class="publishing">퍼블리싱 : HTML, SCSS, JavaScript</p>
+    </div>
+    <div class="info-button-wrap">
+      <button><a href="https://github.com/JANG9999/ETOOS" target="_blank">GIT 바로가기</a></button>
+      <button><a href="https://jang9999.github.io/ETOOS/" target="_blank">사이트 바로가기</a></button>
+    </div>
+  </div>
+  <div class="project-info" id="modal-pitap">
+    <div class="info-title">
+      <h2 class="info-main-title">PITAP</h2>
+      <span><i class="fa-solid fa-xmark info-close"></i></span>
+    </div>
+    <div class="info-sub">
+      <h3 class="sub-title">PITAP 클론코딩</h3>
+      <div class="sub-desc">
+        <p class="during">제작기간 : 7일</p>
+        <p class="domestic">기여도 : 100%</p>
+      </div>
+    </div>
+    <div class="swiper project-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <video autoplay muted src="images/slide04-video01.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+          <video autoplay muted src="images/slide04-video02.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+          <video autoplay muted src="images/slide04-video03.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <div class="info-desc">
+      <p>이번 클론코딩 프로젝트는 메인페이지와 서브페이지 2종으로 구성돼 있다. 전체적으로 최신 웹 인터랙션을 참고해 GSAP 애니메이션을 적용했고, 페이지 전환이나 요소 등장 시 부드럽게 움직이도록 했다. 슬라이드는 Swiper 라이브러리를 활용해서 기기 크기에 따라 잘 반응하도록 구성했다. 서브페이지에는 필요한 정보만 보이도록 필터 기능을 넣었고, 중복되거나 불필요한 내용은 줄였으며, 모바일 반응형 환경에서도 문제없이 작동하도록 구성했다. </p>
+    </div>
+    <div class="tools">
+      <h2>프로젝트 개발 툴</h2>
+      <p class="design">디자인 : Figma, Photoshop</p>
+      <p class="publishing">퍼블리싱 : HTML, SCSS, JavaScript</p>
+    </div>
+    <div class="info-button-wrap">
+      <button><a href="https://github.com/JANG9999/PITAP" target="_blank">GIT 바로가기</a></button>
+      <button><a href="https://jang9999.github.io/PITAP/" target="_blank">사이트 바로가기</a></button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".project-swiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script src="script/custom.js"></script>
+</body>
+</html>
