@@ -95,7 +95,6 @@ let more = document.querySelectorAll('.more');
 let hoverContent = document.querySelectorAll('.hover-content');
 
 function setupMobileHover() {
-  // 현재 뷰포트가 768px 이하인지 확인
   if (window.innerWidth <= 400) {
     more.forEach(function (m, idx) {
       m.addEventListener('click', function (e) {
