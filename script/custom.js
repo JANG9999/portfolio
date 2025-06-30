@@ -95,7 +95,7 @@ let more = document.querySelectorAll('.more');
 let hoverContent = document.querySelectorAll('.hover-content');
 
 function setupMobileHover() {
-  if (window.innerWidth <= 400) {
+  if (window.innerWidth <= 500) {
     more.forEach(function (m, idx) {
       m.addEventListener('click', function (e) {
         e.stopPropagation();
